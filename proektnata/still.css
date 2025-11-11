@@ -1,0 +1,282 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body.bodymain {
+    
+    min-height: 100%;
+    background-image: url('https://wallpapers.com/images/hd/macedonia-flag-against-bright-sun-pgwc0fx23eg94wgw.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #0d96e6;
+    text-align: center;
+}
+
+.header a {
+    color: #87CEFA;
+    font-weight: bold;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+
+.meni {
+    background-color: rgba(10, 169, 217, 0.7);
+    display: inline-block;
+    padding: 20px 50px;
+    margin: 50px 0;
+}
+
+.meni ul {
+    padding: 0;
+}
+
+.meni li {
+    margin: 10px 0;
+}
+
+.meni a {
+    color: #a55ece;
+    text-decoration: none;
+}
+
+.meni a:hover {
+    text-decoration: underline;
+}
+
+.futer {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.futer a {
+    color: #0bbcdb;
+    text-decoration: none;
+}
+
+
+.main1 {
+    min-height: 100%;
+    background-image: url('https://ontheworldmap.com/macedonia/map-of-macedonia.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #1f09c7;
+    padding: 50px 20px;
+}
+
+
+.naslov {
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+.grad {
+    margin: 20px;
+    text-align: center;
+}
+
+.grad img {
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.glasaj textarea {
+    width: 100%;
+    max-width: 450px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.vratise a {
+    font-size: 1.8em;
+    color: #3c17b5;
+    font-weight: bold;
+    margin-top: 50px;
+    display: block;
+}
+
+.vratise a:hover {
+    text-decoration: underline;
+}
+
+
+
+.loginot {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('https://media.istockphoto.com/id/2163983591/vector/abstract-multicolored-gradient-vector-background-design-wallpaper-template-with-geometric.jpg?s=612x612&w=0&k=20&c=wb1CT6XfnlzyhA63kMaN6LW0EM-ltGJSPSPlSW9qHos=');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #2c19d2;
+    text-align: center;
+}
+
+.loginmain {
+    background-color: rgba(255, 255, 255, 0.877);
+    padding: 40px;
+    width: 90%;
+}
+
+.loginmain input[type="email"],
+.loginmain input[type="submit"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.loginmain input[type="submit"] {
+    background-color: #e57225;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.loginmain input[type="submit"]:hover {
+    background-color: #c05c1f;
+}
+
+.vratise2 a {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #2c19d2;
+    display: block;
+    margin-top: 20px;
+}
+
+.vratise2 a:hover {
+    text-decoration: underline;
+}
+
+.review {
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://media.istockphoto.com/id/2163983591/vector/abstract-multicolored-gradient-vector-background-design-wallpaper-template-with-geometric.jpg?s=612x612&w=0&k=20&c=wb1CT6XfnlzyhA63kMaN6LW0EM-ltGJSPSPlSW9qHos=');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #2c19d2;
+    text-align: center;
+    padding: 20px;
+}
+
+.reviewmain {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    max-width: 500px;
+    width: 90%;
+}
+
+.reviewmain input[type="number"],
+.reviewmain input[type="text"],
+.reviewmain textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+.reviewmain input[type="submit"] {
+    background-color: #e57225;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.reviewmain input[type="submit"]:hover {
+    background-color: #c05c1f;
+}
+
+.vratise2 a {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #2c19d2;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.vratise2 a:hover {
+    text-decoration: underline;
+}
+
+
+body {
+    background-image: none; 
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+div[class$="main"] {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+p, ul {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    text-align: center;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+a {
+    color: #1E90FF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.erorite{
+    display:block;
+    color: red;
+    font-size: small;
+}
